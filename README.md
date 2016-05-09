@@ -1,4 +1,4 @@
-# how-to-be-a-git-bad-ass
+# How to be a `git` bad-ass
 ## Logging/Information
 ### `git log --oneline`
 Show a concise form of the log
