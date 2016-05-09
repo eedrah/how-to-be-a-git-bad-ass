@@ -1,4 +1,38 @@
 # How to be a `git` bad-ass
+
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [How to be a `git` bad-ass](#how-to-be-a-git-bad-ass)
+	- [Logging/Information](#logginginformation)
+		- [`git log --oneline`](#git-log-oneline)
+			- [Boss level](#boss-level)
+			- [Wizard level](#wizard-level)
+			- [Bad-ass level](#bad-ass-level)
+		- [`git log -p`](#git-log-p)
+		- [`git diff` and friends](#git-diff-and-friends)
+			- [Boss level](#boss-level)
+			- [Wizard level](#wizard-level)
+			- [Bad-ass level](#bad-ass-level)
+		- [`git blame`](#git-blame)
+	- [Recovery](#recovery)
+		- [`git reflog`](#git-reflog)
+	- [Minimizing work](#minimizing-work)
+		- [`git cherry-pick`](#git-cherry-pick)
+		- [`git revert`](#git-revert)
+		- [`git rebase`](#git-rebase)
+		- [Abusing remotes to scaffold projects](#abusing-remotes-to-scaffold-projects)
+		- [Small commits lead to reusable commits](#small-commits-lead-to-reusable-commits)
+		- [Abusing the index with `git update-index` or `git symbolic-ref`](#abusing-the-index-with-git-update-index-or-git-symbolic-ref)
+		- [`git clean`](#git-clean)
+	- [Staging](#staging)
+		- [`git add -p`](#git-add-p)
+		- [Reset unstaged work](#reset-unstaged-work)
+		- [Swap unstaged and staged work](#swap-unstaged-and-staged-work)
+	- [Aliases](#aliases)
+	- [Final note on technique](#final-note-on-technique)
+
+<!-- /TOC -->
+
 ## Logging/Information
 ### `git log --oneline`
 Show a concise form of the log
